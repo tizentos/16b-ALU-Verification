@@ -1,0 +1,701 @@
+vsim -c -do run.do
+Reading pref.tcl
+
+# 10.6
+
+# do run.do
+# Model Technology ModelSim SE-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+# Start time: 12:46:13 on Mar 28,2020
+# vlog ../dut/ALU_netlist.v ../lib/gscl45nm.v 
+# -- Compiling module add_unsigned_6
+# -- Compiling module add_unsigned_carry_1
+# -- Compiling module add_unsigned_carry_28
+# -- Compiling module add_unsigned_carry
+# -- Compiling module gt_signed
+# -- Compiling module geq_signed
+# -- Compiling module increment_unsigned
+# -- Compiling module lt_signed
+# -- Compiling module leq_signed
+# -- Compiling module shift_left_vlog_unsigned
+# -- Compiling module shift_left_vlog_unsigned_1
+# -- Compiling module shift_right_vlog_unsigned
+# -- Compiling module shift_right_vlog_unsigned_623
+# -- Compiling module shift_right_vlog_unsigned_784
+# -- Compiling module shift_right_vlog_unsigned_784_1
+# -- Compiling module ALU
+# -- Compiling module AND2X1
+# -- Compiling module AND2X2
+# -- Compiling module AOI21X1
+# -- Compiling module AOI22X1
+# -- Compiling module BUFX2
+# -- Compiling module BUFX4
+# -- Compiling module CLKBUF1
+# -- Compiling module CLKBUF2
+# -- Compiling module CLKBUF3
+# -- Compiling module DFFNEGX1
+# -- Compiling module DFFPOSX1
+# -- Compiling module DFFSR
+# -- Compiling module FAX1
+# -- Compiling module HAX1
+# -- Compiling module INVX1
+# -- Compiling module INVX2
+# -- Compiling module INVX4
+# -- Compiling module INVX8
+# -- Compiling module LATCH
+# -- Compiling module MUX2X1
+# -- Compiling module NAND2X1
+# -- Compiling module NAND3X1
+# -- Compiling module NOR2X1
+# -- Compiling module NOR3X1
+# -- Compiling module OAI21X1
+# -- Compiling module OAI22X1
+# -- Compiling module OR2X1
+# -- Compiling module OR2X2
+# -- Compiling module TBUFX1
+# -- Compiling module TBUFX2
+# -- Compiling module XNOR2X1
+# -- Compiling module XOR2X1
+# -- Compiling UDP udp_dff
+# -- Compiling UDP udp_tlat
+# -- Compiling UDP udp_rslat
+# -- Compiling UDP udp_mux2
+# 
+# Top level modules:
+# 	ALU
+# 	AND2X2
+# 	BUFX4
+# 	CLKBUF1
+# 	CLKBUF2
+# 	CLKBUF3
+# 	DFFNEGX1
+# 	DFFSR
+# 	INVX2
+# 	INVX4
+# 	INVX8
+# 	LATCH
+# 	OAI22X1
+# 	TBUFX1
+# 	TBUFX2
+# End time: 12:46:13 on Mar 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+# Start time: 12:46:13 on Mar 28,2020
+# vlog "+fcover" -sv ../tb/interfaces.sv ../tb/sequences.sv ../tb/coverage.sv ../tb/scoreboard.sv ../tb/modules.sv ../tb/tests.sv ../tb/tb.sv 
+# -- Compiling interface dut_in
+# -- Compiling interface dut_out
+# ** Note: (vlog-2286) ../tb/sequences.sv(1): Using implicit +incdir+/misc/linuxws/packages/mentor_2016/modelsim10.6/modeltech/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling package sequences
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling package coverage
+# -- Importing package sequences
+# -- Compiling package scoreboard
+# -- Compiling package modules_pkg
+# -- Importing package coverage
+# -- Importing package scoreboard
+# -- Compiling package tests
+# -- Importing package modules_pkg
+# -- Compiling package tb_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Importing package modules_pkg
+# -- Importing package sequences
+# -- Importing package coverage
+# -- Importing package scoreboard
+# -- Importing package tests
+# -- Compiling module dut
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:46:14 on Mar 28,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c top 
+# Start time: 12:46:14 on Mar 28,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 10.6 Dec 13 2016Linux 3.10.0-1062.9.1.el7.x86_64
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dut_in(fast)
+# Loading work.dut_out(fast)
+# Loading mtiUvm.uvm_pkg
+# Loading work.sequences(fast)
+# Loading work.scoreboard(fast)
+# Loading work.coverage(fast)
+# Loading work.modules_pkg(fast)
+# Loading work.tests(fast)
+# Loading work.tb_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.ALU(fast)
+# Loading work.INVX1(fast)
+# Loading work.HAX1(fast)
+# Loading work.AOI21X1(fast)
+# Loading work.AND2X1(fast)
+# Loading work.BUFX2(fast)
+# Loading work.FAX1(fast)
+# Loading work.XOR2X1(fast)
+# Loading work.OAI21X1(fast)
+# Loading work.AOI22X1(fast)
+# Loading work.NAND2X1(fast)
+# Loading work.NOR2X1(fast)
+# Loading work.OR2X1(fast)
+# Loading work.NAND3X1(fast)
+# Loading work.MUX2X1(fast)
+# Loading work.NOR3X1(fast)
+# Loading work.XNOR2X1(fast)
+# Loading work.DFFPOSX1(fast)
+# Loading work.OR2X2(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading /misc/linuxws/packages/mentor_2016/modelsim10.6/modeltech/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test1...
+# UVM_INFO ../tb/scoreboard.sv(63) @ 25000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xc6709df6, Operand B = 0xe69a4f14, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 25000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11011111110101100100111011100010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 25000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11011111110101100100111011100010, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 35000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xaf8bccd1, Operand B = 0x26ad3330, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 35000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10001000110111101001100110100001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 35000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 10001000110111101001100110100001, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 45000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x348c8d41, Operand B = 0xb4eae857, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 45000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01111111101000011010010011101010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 45000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01111111101000011010010011101010, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 55000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x8ba1f123, Operand B = 0x0facc41a, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 55000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01111011111101010010110100001001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 55000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01111011111101010010110100001001, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 65000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xc34c28c7, Operand B = 0x0a0b5943, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 65000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10111001010000001100111110000100, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 65000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 10111001010000001100111110000100, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 75000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x63ca4119, Operand B = 0x2dc17949, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 75000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00110110000010001100011111010000, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 75000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 00110110000010001100011111010000, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 85000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x87aacbab, Operand B = 0x2eae3575, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 85000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01011000111111001001011000110110, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 85000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01011000111111001001011000110110, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 95000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xbf81d44a, Operand B = 0xd37c6fb4, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 95000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11101100000001010110010010010110, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 95000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11101100000001010110010010010110, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 105000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x081d3fbd, Operand B = 0xd544cfb8, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 105000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00110010110110000111000000000101, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 105000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00110010110110000111000000000101, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 115000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x53a13a17, Operand B = 0x40fb695f, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 115000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00010010101001011101000010111000, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 115000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 00010010101001011101000010111000, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 125000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x6e7a3cc1, Operand B = 0xc933dddf, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 125000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10100101010001100101111011100010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 125000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10100101010001100101111011100010, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 135000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x547eaf8a, Operand B = 0xa77d7403, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 135000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10101101000000010011101110000111, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 135000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10101101000000010011101110000111, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 145000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x34d15f43, Operand B = 0xb858e0a9, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 145000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01111100011110000111111010011010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 145000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01111100011110000111111010011010, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 155000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xb3f4658c, Operand B = 0x5ae8433e, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 155000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01011001000011000010001001001110, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 155000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01011001000011000010001001001110, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 165000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x832e9573, Operand B = 0x5960b001, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 165000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00101001110011011110010101110010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 165000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00101001110011011110010101110010, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 175000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x8bbf20eb, Operand B = 0x1e95e4e2, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 175000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01101101001010010011110000001001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 175000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01101101001010010011110000001001, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 185000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x01a0c255, Operand B = 0x360b7127, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 185000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11001011100101010101000100101110, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 185000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11001011100101010101000100101110, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 195000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x8bf2c719, Operand B = 0x026e3e1d, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 195000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10001001100001001000100011111100, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 195000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 10001001100001001000100011111100, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 205000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x5131f744, Operand B = 0x7a588b97, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 205000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11010110110110010110101110101101, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 205000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11010110110110010110101110101101, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 215000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x612197fa, Operand B = 0x1fbfd508, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 215000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01000001011000011100001011110010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 215000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 01000001011000011100001011110010, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 225000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x60c59742, Operand B = 0x3c97afe0, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 225000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00100100001011011110011101100010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 225000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 00100100001011011110011101100010, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 235000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xa8445274, Operand B = 0x3b20c910, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 235000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01101101001000111000100101100100, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 235000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01101101001000111000100101100100, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 245000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x01a94006, Operand B = 0x365fbe58, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 245000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11001011010010011000000110101110, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 245000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11001011010010011000000110101110, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 255000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x697168d4, Operand B = 0xcd59e50f, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 255000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10011100000101111000001111000101, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 255000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10011100000101111000001111000101, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 265000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xf3a02970, Operand B = 0x01116408, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 265000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11110010100011101100010101101000, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 265000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 11110010100011101100010101101000, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 275000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x58c3291b, Operand B = 0xd18d5dc7, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 275000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10000111001101011100101101010100, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 275000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10000111001101011100101101010100, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 285000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xbdf1d283, Operand B = 0xe55e31bd, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 285000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11011000100100111010000011000110, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 285000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11011000100100111010000011000110, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 295000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x5f7719c4, Operand B = 0xc14075b6, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 295000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10011110001101101010010000001110, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 295000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10011110001101101010010000001110, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 305000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x7f531073, Operand B = 0xf7d5585a, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 305000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10000111011111011011100000011001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 305000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10000111011111011011100000011001, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 315000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xa7362966, Operand B = 0xe878ac1e, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 315000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10111110101111010111110101001000, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 315000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10111110101111010111110101001000, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 325000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xf694211b, Operand B = 0xa3c29890, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 325000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01010010110100011000100010001011, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 325000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01010010110100011000100010001011, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 335000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xf7211e52, Operand B = 0x39cd8e01, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 335000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10111101010100111001000001010001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 335000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 10111101010100111001000001010001, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 345000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xe6dfbbf4, Operand B = 0x31a47c30, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 345000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10110101001110110011111111000100, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 345000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 10110101001110110011111111000100, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 355000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xd4c6eea9, Operand B = 0xd95b13c8, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 355000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11111011011010111101101011100001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 355000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11111011011010111101101011100001, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 365000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x6837ad79, Operand B = 0xb74c774c, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 365000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10110000111010110011011000101101, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 365000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10110000111010110011011000101101, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 375000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x1154e46b, Operand B = 0x25786c62, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 375000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11101011110111000111100000001001, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 375000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11101011110111000111100000001001, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 385000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x29aba8f7, Operand B = 0xbeb33c92, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 385000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01101010111110000110110001100101, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 385000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01101010111110000110110001100101, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 395000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x1bd703fd, Operand B = 0xddbcf8a6, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 395000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00111110000110100000101101010111, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 395000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00111110000110100000101101010111, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 405000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x19a62142, Operand B = 0x0f851c7c, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 405000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00001010001000010000010011000110, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 405000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 00001010001000010000010011000110, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 415000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x92aecfb1, Operand B = 0x26730576, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 415000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01101100001110111100101000111011, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 415000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01101100001110111100101000111011, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 425000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x2e235804, Operand B = 0xeb4daef1, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 425000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01000010110101011010100100010011, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 425000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01000010110101011010100100010011, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 435000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x513b155c, Operand B = 0x767f8615, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 435000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11011010101110111000111101000111, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 435000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11011010101110111000111101000111, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 445000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x86f2ecdc, Operand B = 0x2a251464, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 445000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01011100110011011101100001111000, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 445000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01011100110011011101100001111000, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 455000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xdfb3fbc5, Operand B = 0x59b87bc5, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 455000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10000101111110111000000000000000, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 455000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 10000101111110111000000000000000, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 465000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x74f06a7f, Operand B = 0xbd0c99c6, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 465000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10110111111000111101000010111001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 465000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10110111111000111101000010111001, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 475000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x755983b0, Operand B = 0x6eedf1e8, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 475000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00000110011010111001000111001000, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 475000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 00000110011010111001000111001000, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 485000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x203a1004, Operand B = 0x23059234, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 485000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11111101001101000111110111010000, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 485000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11111101001101000111110111010000, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 495000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x295ccc18, Operand B = 0x581cf983, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 495000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11010001001111111101001010010101, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 495000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11010001001111111101001010010101, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 505000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x554d55fb, Operand B = 0xbadab4da, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 505000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10011010011100101010000100100001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 505000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10011010011100101010000100100001, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 515000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xd3f16d44, Operand B = 0x1c79abf2, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 515000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10110111011101111100000101010010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 515000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 10110111011101111100000101010010, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 525000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xfbc9a36f, Operand B = 0xd508fe18, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 525000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00100110110000001010010101010111, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 525000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00100110110000001010010101010111, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 535000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xb9be7200, Operand B = 0xd1e8e17a, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 535000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11100111110101011001000010000110, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 535000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11100111110101011001000010000110, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 545000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x8a6360c9, Operand B = 0xcb0a7dbb, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 545000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10111111010110001110001100001110, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 545000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10111111010110001110001100001110, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 555000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x792243bc, Operand B = 0xfed0e9ef, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 555000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01111010010100010101100111001101, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 555000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01111010010100010101100111001101, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 565000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x0c7a386b, Operand B = 0x49d0352b, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 565000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11000010101010100000001101000000, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 565000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11000010101010100000001101000000, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 575000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xab46c781, Operand B = 0x95f0e3ab, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 575000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00010101010101011110001111010110, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 575000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00010101010101011110001111010110, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 585000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xd9b5b27f, Operand B = 0x571bc8d6, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 585000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10000010100110011110100110101001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 585000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 10000010100110011110100110101001, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 595000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x95015ce9, Operand B = 0xa686f562, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 595000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11101110011110100110011110000111, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 595000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11101110011110100110011110000111, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 605000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xeb5ceec9, Operand B = 0x3c4d2c94, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 605000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10101111000011111100001000110101, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 605000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 10101111000011111100001000110101, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 615000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x9e00654d, Operand B = 0xa5b3f641, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 615000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11111000010011000110111100001100, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 615000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11111000010011000110111100001100, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 625000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x51f1feef, Operand B = 0x6967082f, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 625000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11101000100010101111011011000000, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 625000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11101000100010101111011011000000, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 635000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xd67d51e0, Operand B = 0x7c216784, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 635000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01011010010110111110101001011100, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 635000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01011010010110111110101001011100, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 645000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x81149f3a, Operand B = 0x3ce2acaa, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 645000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01000100001100011111001010010000, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 645000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01000100001100011111001010010000, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 655000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x16cfa3da, Operand B = 0x78cdeafe, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 655000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10011110000000011011100011011100, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 655000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10011110000000011011100011011100, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 665000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x3badfda5, Operand B = 0xcb69e3a2, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 665000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01110000010001000001101000000011, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 665000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01110000010001000001101000000011, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 675000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x9a522976, Operand B = 0x7804cc8b, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 675000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00100010010011010101110011101011, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 675000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00100010010011010101110011101011, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 685000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x3da4b336, Operand B = 0x1ba4aa74, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 685000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00100010000000000000100011000010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 685000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 00100010000000000000100011000010, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 695000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xb0ae9b7a, Operand B = 0x853c016d, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 695000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00101011011100101001101000001101, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 695000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00101011011100101001101000001101, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 705000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xc52ae359, Operand B = 0xddc5d1a5, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 705000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11100111011001010001000110110100, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 705000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11100111011001010001000110110100, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 715000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x7bf2a89e, Operand B = 0x5cf046bc, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 715000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00011111000000100110000111100010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 715000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 00011111000000100110000111100010, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 725000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x962261fd, Operand B = 0xcafe11a9, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 725000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11001011001001000101000001010100, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 725000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11001011001001000101000001010100, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 735000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x8b7e505b, Operand B = 0xace512ba, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 735000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11011110100110010011110110100001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 735000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11011110100110010011110110100001, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 745000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x4b5259b6, Operand B = 0x4633a900, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 745000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00000101000111101011000010110110, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 745000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 00000101000111101011000010110110, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 755000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x59c647b9, Operand B = 0x65160ea3, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 755000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11110100101100000011100100010110, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 755000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11110100101100000011100100010110, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 765000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x3429ff84, Operand B = 0xd6d9f917, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 765000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01011101010100000000011001101101, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 765000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01011101010100000000011001101101, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 775000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x735e50e3, Operand B = 0x36c53225, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 775000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00111100100110010001111010111110, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 775000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 00111100100110010001111010111110, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 785000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x039e4f82, Operand B = 0x86756c30, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 785000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01111101001010001110001101010010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 785000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01111101001010001110001101010010, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 795000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x7c5298e2, Operand B = 0x383f25b2, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 795000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01000100000100110111001100110000, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 795000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 01000100000100110111001100110000, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 805000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xbd1d6697, Operand B = 0x85800ecd, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 805000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00110111100111010101011111001010, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 805000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00110111100111010101011111001010, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 815000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x3e039eb7, Operand B = 0xa8d4f814, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 815000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10010101001011101010011010100011, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 815000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10010101001011101010011010100011, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 825000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xde45d631, Operand B = 0x9536535c, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 825000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01001001000011111000001011010101, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 825000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01001001000011111000001011010101, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 835000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x3e9bc52e, Operand B = 0xbe45f955, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 835000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10000000010101011100101111011001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 835000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10000000010101011100101111011001, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 845000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x1b82d91b, Operand B = 0xe36a2a22, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 845000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00111000000110001010111011111001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 845000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00111000000110001010111011111001, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 855000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x99fad42f, Operand B = 0x559e1235, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 855000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01000100010111001100000111111010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 855000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01000100010111001100000111111010, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 865000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xe868e92f, Operand B = 0xe598d5d1, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 865000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00000010110100000001001101011110, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 865000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00000010110100000001001101011110, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 875000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x8cfa7b52, Operand B = 0xe2dc0327, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 875000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10101010000111100111100000101011, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 875000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10101010000111100111100000101011, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 885000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xffa44da3, Operand B = 0x126ec517, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 885000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11101101001101011000100010001100, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 885000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 11101101001101011000100010001100, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 895000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xf61595ed, Operand B = 0xf40136a0, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 895000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00000010000101000101111101001101, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 895000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00000010000101000101111101001101, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 905000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xc96b0480, Operand B = 0xf5888fa7, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 905000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11010011111000100111010011011001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 905000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 11010011111000100111010011011001, realCOUT = 1, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 915000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x93471a12, Operand B = 0x3d6ce8f1, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 915000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01010101110110100011000100100001, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 915000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01010101110110100011000100100001, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 925000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xea7e409e, Operand B = 0xd4792718, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 925000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00010110000001010001100110000110, COUT = 1, VOUT = 1
+# UVM_INFO ../tb/scoreboard.sv(181) @ 925000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 00010110000001010001100110000110, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 935000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x6999df6d, Operand B = 0xb7cb9085, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 935000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10110001110011100100111011101000, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 935000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10110001110011100100111011101000, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 945000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x702ecb0d, Operand B = 0xdd411c03, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 945000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10010010111011011010111100001010, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 945000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10010010111011011010111100001010, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 955000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xf0d622f0, Operand B = 0x02d97e11, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 955000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 11101101111111001010010011011111, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 955000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 11101101111111001010010011011111, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 965000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x6869bcbc, Operand B = 0xda10fc16, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 965000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 10001110010110001100000010100110, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 965000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 10001110010110001100000010100110, realCOUT = 1, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 975000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0xc03b1dee, Operand B = 0x6df464b3, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 975000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01010010010001101011100100111011, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 975000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01010010010001101011100100111011, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 985000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x82f086b8, Operand B = 0x2465d7d5, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 985000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 01011110100010101010111011100011, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(181) @ 985000: uvm_test_top.alu_env_h.alu_scoreboard_h [FAIL INFO]  Failed...realOUT = 01011110100010101010111011100011, realCOUT = 0, realVOUT = 1
+# 
+# 
+# UVM_INFO ../tb/scoreboard.sv(63) @ 995000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_IN] Operand A = 0x27bdb7a0, Operand B = 0x03c36bd9, Opcode = 10100, CIN = 1, RST = 0
+# UVM_INFO ../tb/scoreboard.sv(64) @ 995000: uvm_test_top.alu_env_h.alu_scoreboard_h [TX_OUT] OUT = 00100011111110100100101111000111, COUT = 0, VOUT = 0
+# UVM_INFO ../tb/scoreboard.sv(178) @ 995000: uvm_test_top.alu_env_h.alu_scoreboard_h [PASS INFO]  Passed...realOUT = 00100011111110100100101111000111, realCOUT = 0, realVOUT = 0
+# 
+# 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 995000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ../tb/coverage.sv(70) @ 995000: uvm_test_top.alu_env_h.alu_subscriber_in_h [uvm_test_top.alu_env_h.alu_subscriber_in_h] Coverage is         27
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  299
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [FAIL INFO]    74
+# [PASS INFO]    24
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [TX_IN]    98
+# [TX_OUT]    98
+# [uvm_test_top.alu_env_h.alu_subscriber_in_h]     1
+# ** Note: $finish    : /misc/linuxws/packages/mentor_2016/modelsim10.6/modeltech/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 9950 ns  Iteration: 70  Instance: /top
+# Saving coverage database on exit...
+# End time: 12:46:21 on Mar 28,2020, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+vcover report -details report.ucdb -output reportt.txt
+Model Technology ModelSim SE-64 vcover 10.6 Coverage Utility 2016.12 Dec 13 2016
+Start time: 12:46:21 on Mar 28,2020
+vcover report -details report.ucdb -output reportt.txt 
+End time: 12:46:21 on Mar 28,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
